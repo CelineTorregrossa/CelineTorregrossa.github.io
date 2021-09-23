@@ -116,7 +116,7 @@ video {
         -webkit-text-stroke: 1.7px rgba(255, 255, 255, 0.85);
     }
     
-    @media screen and (min-width:1199px) {
+@media screen and (min-width:1199px) {
     video {
         width: 100vw;
         height: 100vh;
