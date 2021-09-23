@@ -1,3 +1,4 @@
+/* ********************COMMUNS********************** */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,6 +8,8 @@
 body {
     font-family: 'Dancing Script', sans-serif;
 }
+
+/* *******************MAIN************************** */
 
 video {
     position: absolute;
@@ -38,6 +41,8 @@ video {
     color: transparent;
     animation: scrollTxt 30s linear infinite;
 }
+
+/* ANIMATION */
 
 @keyframes scrollTxt {
     0% {
@@ -115,7 +120,8 @@ video {
         font-size: 4.3rem;
         -webkit-text-stroke: 1.7px rgba(255, 255, 255, 0.85);
     }
-    
+}
+
 @media screen and (min-width:1199px) {
     video {
         width: 100vw;
@@ -133,7 +139,6 @@ video {
         -webkit-text-stroke: 3px rgba(255, 255, 255, 0.85);
     }
 }
-
 
 
 
